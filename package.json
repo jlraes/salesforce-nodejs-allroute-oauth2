@@ -1,0 +1,25 @@
+{
+  "name": "sfdc",
+  "version": "1.0.0",
+  "description": "Salesforce Auth for Intranet",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "cookie-session": "^2.0.0-beta.2",
+    "express": "^4.15.3",
+    "express-json": "^1.0.0",
+    "express-session": "^1.15.3",
+    "method-override": "^2.3.9",
+    "passport": "^0.3.2",
+    "passport-forcedotcom": "^0.1.4",
+    "passport-oauth": "^1.0.0",
+    "passport-salesforce-oauth2": "0.0.1",
+    "util": "^0.10.3"
+  }
+}
